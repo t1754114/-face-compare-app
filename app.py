@@ -85,7 +85,7 @@ if st.button("比較画像を生成"):
                 # ラベル描画
                 draw = ImageDraw.Draw(result)
                 try:
-                    font = ImageFont.truetype("DejaVuSans-Bold.ttf", size=108)
+                    font = ImageFont.truetype("DejaVuSans-Bold.ttf", size=36)
                 except:
                     font = ImageFont.load_default()
 
